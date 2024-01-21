@@ -16,34 +16,24 @@ h1 {
     margin: 50px 100px 0px 100px;
   }
 
-  h4 {
-    color: rgb(244, 167, 209);
-    font: 100px "lucida grande", tahoma, verdana, arial, sans-serif;
-  }
-  
-  em {
-    color: rgb(63, 97, 45);
-  }
-
-  p {
-    color: rgb(118, 230, 221);
-    font: 21px "lucida grande", tahoma, verdana, arial, sans-serif;
-  }
-
 body {
         background-color: rgb(244, 242, 243);
 }
 
-  header {
-    background-color: rgb(255, 255, 255);
+header {
+    color: rgb(0, 0, 0);
+    position: fixed;
     padding: 0px;
     text-align: center;
-    color: rgb(0, 0, 0);
     font: 35px "lucida grande", tahoma, verdana, arial, sans-serif;
+    z-index: 1000; 
+    width: 100%; 
+    background-color: rgb(244, 242, 243);
   }
 
   .image-container img {
     width: 300px;
+    margin-top: 40px;
     height: auto;
     border-radius: 10px;
   }
